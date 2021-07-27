@@ -48,4 +48,14 @@ $(function(){
     $('.lb-terms').fadeOut();
     return false;
   });
+
+  $('#section_discount .link-basic').on('click', function(){
+    var $body = (window.opera) ? (document.compatMode == "CSS1Compat" ? $('html') : $('body')) : $('html,body');
+    var top = $('#section_rule').offset().top;
+
+    $body.animate({
+        scrollTop: top
+    }, 1000);
+    return false;
+  });
 });
