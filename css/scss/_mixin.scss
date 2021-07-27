@@ -1,0 +1,85 @@
+// breakpoint
+$sm: 576px;
+$md: 769px;
+$lg: 992px;
+$xl: 1200px;
+$hover: 1024px;
+$nav-breakpoiont:1200px;
+
+// color_setting
+$color_primary: #129246;
+$color_secondary: #295bbb;
+$color_dark: #1C2537;
+
+
+// image-path
+$image-path: '../images/';
+
+@mixin xs {
+    @media screen and (min-width: $xs) {
+        @content;
+    }
+}
+@mixin sm {
+    @media screen and (min-width: $sm) {
+        @content;
+    }
+}
+@mixin md {
+    @media screen and (min-width: $md) {
+        @content;
+    }
+}
+@mixin lg {
+    @media screen and (min-width: $lg) {
+        @content;
+    }
+}
+@mixin xl {
+    @media screen and (min-width: $xl) {
+        @content;
+    }
+}
+@mixin xxl {
+    @media screen and (min-width: $xxl) {
+        @content;
+    }
+}
+@mixin full {
+    @media screen and (min-width: $full) {
+        @content;
+    }
+}
+@mixin hover {
+    @media screen and (min-width: $hover) {
+        @content;
+    }
+}
+
+
+@mixin togglebox_icon($m_faq_width, $faq_width, $background-color){
+    width: $m_faq_width;
+    height: $m_faq_width;
+    position: relative;
+    display: inline-block;
+    .deco{
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        top: $m_faq_width/2;
+        width: $m_faq_width;
+        height: 2px;
+        border-radius: 4px;
+        background-color: $background-color;
+        transition: .2s;
+    }
+    @media (min-width: $md) {
+        width: $faq_width;
+        height: $faq_width;
+        .deco{
+            top: $faq_width/2;
+            width: $faq_width;
+            height: 4px;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+$main_width: 1440;
+$m_main_width: 640;
+
+.wrap{
+    width: 100%;
+    overflow: hidden;
+}
+.main{
+    max-width: 1360px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    @media (min-width: $md) {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    @media (min-width: $lg) {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
