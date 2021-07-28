@@ -511,9 +511,6 @@ ul {
       #section_discount .discount-container .coupon-group .coupon .title {
         font-size: 36px;
         font-weight: 700; }
-        @media (min-width: 1200px) {
-          #section_discount .discount-container .coupon-group .coupon .title {
-            font-size: 36px; } }
       #section_discount .discount-container .coupon-group .coupon .code {
         background-color: #fff;
         border-radius: 100px;
@@ -525,9 +522,6 @@ ul {
             font-size: 36px; } }
       #section_discount .discount-container .coupon-group .coupon .des {
         font-size: 18px; }
-        @media (min-width: 1200px) {
-          #section_discount .discount-container .coupon-group .coupon .des {
-            font-size: 18px; } }
     #section_discount .discount-container .instruction {
       padding-left: 22px;
       font-size: 14px; }
@@ -650,25 +644,25 @@ ul {
     #section_books .books-container .slick-md .arrow-left {
       position: absolute;
       left: 40px;
-      top: 90px;
+      top: 80px;
       width: 80px;
       z-index: 20;
       cursor: pointer; }
       @media (min-width: 1200px) {
         #section_books .books-container .slick-md .arrow-left {
-          top: 80px;
+          top: 70px;
           width: 100px;
           left: 100px; } }
     #section_books .books-container .slick-md .arrow-right {
       position: absolute;
       right: 40px;
-      top: 90px;
+      top: 80px;
       width: 80px;
       z-index: 20;
       cursor: pointer; }
       @media (min-width: 1200px) {
         #section_books .books-container .slick-md .arrow-right {
-          top: 80px;
+          top: 70px;
           width: 100px;
           right: 100px; } }
     #section_books .books-container .slick-md .main-title {
@@ -678,21 +672,21 @@ ul {
       z-index: 10; }
       #section_books .books-container .slick-md .main-title h2 {
         color: #fff;
-        font-size: 48px;
+        font-size: 36px;
         font-weight: 700;
         background-color: #213179;
         border-radius: 50px;
         padding: 0 60px; }
     #section_books .books-container .slick-md .series {
-      padding-top: 180px;
+      padding-top: 170px;
       padding-bottom: 70px; }
       #section_books .books-container .slick-md .series .title {
         color: #fff;
-        font-size: 48px;
+        font-size: 36px;
         font-weight: 700; }
       #section_books .books-container .slick-md .series .des {
         color: #fff;
-        font-size: 36px; }
+        font-size: 24px; }
       #section_books .books-container .slick-md .series .books {
         margin: 0 60px; }
         @media (min-width: 992px) {

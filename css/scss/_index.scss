@@ -444,13 +444,13 @@
       .arrow-left{
         position: absolute;
         left: 40px;
-        top: 90px;
+        top: 80px;
         width: 80px;
         z-index: 20;
         cursor: pointer;
         
         @media (min-width: $xl) {
-          top: 80px;
+          top: 70px;
           width: 100px;
           left: 100px;
         }
@@ -459,13 +459,13 @@
       .arrow-right{
         position: absolute;
         right: 40px;
-        top: 90px;
+        top: 80px;
         width: 80px;
         z-index: 20;
         cursor: pointer;
         
         @media (min-width: $xl) {
-          top: 80px;
+          top: 70px;
           width: 100px;
           right: 100px;
         }
@@ -479,7 +479,7 @@
         
         h2{
           color: #fff;
-          font-size: 48px;
+          font-size: 36px;
           font-weight: 700;
           background-color: #213179;
           border-radius: 50px;
@@ -488,18 +488,18 @@
       }
       
       .series{
-        padding-top: 180px;
+        padding-top: 170px;
         padding-bottom: 70px;
 
         .title{
           color: #fff;
-          font-size: 48px;
+          font-size: 36px;
           font-weight: 700;
         }
 
         .des{
           color: #fff;
-          font-size: 36px;
+          font-size: 24px;
         }
 
         .books{
