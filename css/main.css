@@ -500,13 +500,15 @@ ul {
         background: url(../images/index/icon_triangle_bottom.png) no-repeat center bottom;
         background-size: 100% auto; }
     #section_discount .discount-container .coupon-group .coupon {
-      flex: 0 1 50%;
+      width: 100%;
       padding: 20px 40px; }
       @media (min-width: 769px) {
         #section_discount .discount-container .coupon-group .coupon {
+          width: calc((100% - 90px) / 2);
           padding: 20px 20px; } }
       @media (min-width: 992px) {
         #section_discount .discount-container .coupon-group .coupon {
+          width: calc((100% - 100px) / 2);
           padding: 20px 40px; } }
       #section_discount .discount-container .coupon-group .coupon .title {
         font-size: 36px;
@@ -521,7 +523,8 @@ ul {
           #section_discount .discount-container .coupon-group .coupon .code {
             font-size: 36px; } }
       #section_discount .discount-container .coupon-group .coupon .des {
-        font-size: 18px; }
+        font-size: 18px;
+        text-justify: inter-ideograph; }
     #section_discount .discount-container .instruction {
       padding-left: 22px;
       font-size: 14px; }
@@ -695,13 +698,11 @@ ul {
         @media (min-width: 1200px) {
           #section_books .books-container .slick-md .series .books {
             margin: 0 90px; } }
-        #section_books .books-container .slick-md .series .books .intro {
-          min-height: 330px; }
-          #section_books .books-container .slick-md .series .books .intro p:nth-child(1) {
-            height: 40%;
-            font-weight: 700; }
-          #section_books .books-container .slick-md .series .books .intro p:nth-child(2) {
-            height: 60%; }
+        #section_books .books-container .slick-md .series .books .intro p:nth-child(1) {
+          min-height: 130px;
+          font-weight: 700; }
+        #section_books .books-container .slick-md .series .books .intro p:nth-child(2) {
+          min-height: 200px; }
         #section_books .books-container .slick-md .series .books p {
           color: #fff;
           font-size: 16px; }

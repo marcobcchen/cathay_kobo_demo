@@ -216,14 +216,17 @@
       }
 
       .coupon{
-        flex: 0 1 50%;
+        // flex: 0 1 50%;
+        width: 100%;
         padding: 20px 40px;
 
         @media (min-width: $md) {
+          width: calc((100% - 90px) / 2);
           padding: 20px 20px;
         }
 
         @media (min-width: $lg) {
+          width: calc((100% - 100px) / 2);
           padding: 20px 40px;
         }
 
@@ -246,6 +249,7 @@
 
         .des{
           font-size: 18px;
+          text-justify:inter-ideograph;
         }
       }
     }
@@ -513,16 +517,23 @@
             margin: 0 90px;
           }
 
+          .book{
+            // max-height: 400px;
+            // width: 20%;
+          }
+
           .intro{
-            min-height: 330px;
+            // min-height: 330px;
 
             p:nth-child(1){
-              height: 40%;
+              // height: 40%;
+              min-height: 130px;
               font-weight: 700;
             }
 
             p:nth-child(2){
-              height: 60%;
+              // height: 60%;
+              min-height: 200px;
             }
           }
 
