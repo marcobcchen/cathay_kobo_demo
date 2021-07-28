@@ -132,7 +132,7 @@
       font-size: 18px;
 
       @media (min-width: $lg) {
-        font-size: 36px;
+        font-size: 24px;
       }
     }
 
@@ -230,10 +230,6 @@
         .title{
           font-size: 36px;
           font-weight: 700;
-
-          @media (min-width: $xl) {
-            font-size: 64px;
-          }
         }
 
         .code{
@@ -250,10 +246,6 @@
 
         .des{
           font-size: 18px;
-
-          @media (min-width: $xl) {
-            font-size: 24px;
-          }
         }
       }
     }

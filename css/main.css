@@ -442,7 +442,7 @@ ul {
       font-size: 18px; }
       @media (min-width: 992px) {
         #section_discount .discount-container .des {
-          font-size: 36px; } }
+          font-size: 24px; } }
     #section_discount .discount-container .coupon-group .left {
       background-color: #000;
       border-radius: 15px; }
@@ -513,7 +513,7 @@ ul {
         font-weight: 700; }
         @media (min-width: 1200px) {
           #section_discount .discount-container .coupon-group .coupon .title {
-            font-size: 64px; } }
+            font-size: 36px; } }
       #section_discount .discount-container .coupon-group .coupon .code {
         background-color: #fff;
         border-radius: 100px;
@@ -527,7 +527,7 @@ ul {
         font-size: 18px; }
         @media (min-width: 1200px) {
           #section_discount .discount-container .coupon-group .coupon .des {
-            font-size: 24px; } }
+            font-size: 18px; } }
     #section_discount .discount-container .instruction {
       padding-left: 22px;
       font-size: 14px; }
